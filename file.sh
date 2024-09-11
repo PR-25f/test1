@@ -2,10 +2,10 @@
 echo " The number is: "
 num=2421
 count=0
-while ( $num > 0 )
+while ( 2421 > 0 )
 do
-        rem=$(($num % 10))
+        rem=$((2421 % 10))
         ((count++))
-        num=$(($num / 10))
+        num=$((2421 / 10))
 done
 echo " the count is $count "
